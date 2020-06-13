@@ -1,5 +1,9 @@
 def split_string(string):
 
+    '''
+    Split string 
+    '''
+
     dict_left = {}
     dict_right = {}
 
@@ -10,7 +14,7 @@ def split_string(string):
 
     for i in range(len(string)):
         uniq_right = add_to_dict(string[i], dict_right, uniq_right)
-        
+
     for i in range(len(string)):
 
         if uniq_left == uniq_right:
@@ -23,7 +27,7 @@ def split_string(string):
 
 
 def add_to_dict(char, _dict, uniq):
-    
+
     print('-->',char)
     print('dict',_dict)
     print('uniq', uniq)
