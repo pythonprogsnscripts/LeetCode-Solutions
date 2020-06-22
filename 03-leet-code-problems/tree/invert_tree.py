@@ -1,5 +1,12 @@
 # Utility function to create a new 
 # tree node  
+
+# def invertTree(self, root):
+#     if root:
+#         invert = self.invertTree
+#         root.left, root.right = invert(root.right), invert(root.left)
+#         return root
+
 class newNode: 
     def __init__(self,data): 
         self.data = data 
